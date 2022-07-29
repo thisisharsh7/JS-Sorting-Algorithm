@@ -1,67 +1,67 @@
-# 十大经典排序算法
+# Top 10 Classic Sorting Algorithms
 
-[![Build Status](https://travis-ci.org/hustcc/JS-Sorting-Algorithm.svg?branch=master)](https://travis-ci.org/hustcc/JS-Sorting-Algorithm)
+[![Build Status](https://travis-ci.org/hustcc/JS-Sorting-Algorithm.svg?branch=master)](https://travis-ci.org/hustcc/JS-Sorting-Algorithm )
 
-排序算法是《数据结构与算法》中最基本的算法之一。
+The sorting algorithm is one of the most basic algorithms in Data Structures and Algorithms.
 
-排序算法可以分为内部排序和外部排序，内部排序是数据记录在内存中进行排序，而外部排序是因排序的数据很大，一次不能容纳全部的排序记录，在排序过程中需要访问外存。常见的内部排序算法有：**插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序**等。用一张图概括：
+Sorting algorithms can be divided into internal sorting and external sorting. Internal sorting is the sorting of data records in memory, while external sorting is because the data to be sorted is large and cannot accommodate all sorting records at one time, and external memory needs to be accessed during the sorting process. Common internal sorting algorithms are: **insertion sort, Hill sort, selection sort, bubble sort, merge sort, quick sort, heap sort, radix sort** and so on. Summarize with a picture:
 
-![十大经典排序算法 概览截图](res/sort.png)
-
-
-**关于时间复杂度**：
-
-1. 平方阶 (O(n2)) 排序
-	各类简单排序：直接插入、直接选择和冒泡排序。
-2. 线性对数阶 (O(nlog2n)) 排序
-	快速排序、堆排序和归并排序；
-3. O(n1+§)) 排序，§ 是介于 0 和 1 之间的常数。
-    希尔排序
-4. 线性阶 (O(n)) 排序
-	基数排序，此外还有桶、箱排序。
+![Top Ten Classic Sorting Algorithms Overview Screenshot](res/sort.png)
 
 
-**关于稳定性**：
+**About time complexity**:
 
-稳定的排序算法：冒泡排序、插入排序、归并排序和基数排序。
-
-不是稳定的排序算法：选择排序、快速排序、希尔排序、堆排序。
-
-
-**名词解释**：
-
-**n**：数据规模
-
-**k**：“桶”的个数
-
-**In-place**：占用常数内存，不占用额外内存
-
-**Out-place**：占用额外内存
-
-**稳定性**：排序后 2 个相等键值的顺序和排序之前它们的顺序相同
-
-----
+1. Square order (O(n2)) sorting
+Various simple sorts: direct insertion, direct selection, and bubble sort.
+2. Linear logarithmic (O(nlog2n)) sorting
+Quick sort, heap sort and merge sort;
+3. O(n1+§)) ordering, where § is a constant between 0 and 1.
+    Hill sort
+4. Linear order (O(n)) sorting
+Radix sort, in addition to bucket and bin sorting.
 
 
-**GitBook 内容大纲**
+**About stability**:
 
-1. [冒泡排序](1.bubbleSort.md)
-2. [选择排序](2.selectionSort.md)
-3. [插入排序](3.insertionSort.md)
-4. [希尔排序](4.shellSort.md)
-5. [归并排序](5.mergeSort.md)
-6. [快速排序](6.quickSort.md)
-7. [堆排序](7.heapSort.md)
-8. [计数排序](8.countingSort.md)
-9. [桶排序](9.bucketSort.md)
-10. [基数排序](10.radixSort.md)
+Stable sorting algorithms: bubble sort, insertion sort, merge sort, and radix sort.
+
+Not a stable sorting algorithm: selection sort, quick sort, hill sort, heap sort.
+
+
+**Glossary**:
+
+**n**: data size
+
+**k**: the number of "buckets"
+
+**In-place**: occupies constant memory, does not occupy additional memory
+
+**Out-place**: takes up extra memory
+
+**Stability**: 2 equal key values ​​are in the same order after sorting as they were before sorting
 
 ----
 
-本书内容几乎完全来源于网络。
 
-开源项目地址：[https://github.com/hustcc/JS-Sorting-Algorithm](https://github.com/hustcc/JS-Sorting-Algorithm)，整理人 [hustcc](https://github.com/hustcc)。
+**GitBook Content Outline**
 
-GitBook 在线阅读地址：[https://sort.hust.cc/](https://sort.hust.cc/)。
+1. [Bubble Sort](1.bubbleSort.md)
+2. [SelectionSort](2.selectionSort.md)
+3. [Insertion Sort](3.insertionSort.md)
+4. [Hill Sort](4.shellSort.md)
+5. [Merge Sort](5.mergeSort.md)
+6. [Quick Sort](6.quickSort.md)
+7. [Heap Sort](7.heapSort.md)
+8. [Counting Sort](8.countingSort.md)
+9. [Bucket Sort](9.bucketSort.md)
+10. [Radix Sort](10.radixSort.md)
 
-本项目使用 [lint-md](https://github.com/hustcc/lint-md) 进行中文 Markdown 文件的格式检查，务必在提交 Pr 之前，保证 Markdown 格式正确。
+----
+
+The content of this book comes almost entirely from the Internet.
+
+Open source project address: [https://github.com/hustcc/JS-Sorting-Algorithm](https://github.com/hustcc/JS-Sorting-Algorithm), organizer [hustcc](https://github .com/hustcc).
+
+GitBook online reading address: [https://sort.hust.cc/](https://sort.hust.cc/).
+
+This project uses [lint-md](https://github.com/hustcc/lint-md) to check the format of Chinese Markdown files. Make sure that the Markdown format is correct before submitting Pr.
