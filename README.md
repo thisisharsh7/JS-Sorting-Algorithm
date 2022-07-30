@@ -1,6 +1,5 @@
 # Top 10 Classic Sorting Algorithms
 
-[![Build Status](https://travis-ci.org/hustcc/JS-Sorting-Algorithm.svg?branch=master)](https://travis-ci.org/hustcc/JS-Sorting-Algorithm )
 
 The sorting algorithm is one of the most basic algorithms in Data Structures and Algorithms.
 
