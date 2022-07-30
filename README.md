@@ -6,7 +6,7 @@ The sorting algorithm is one of the most basic algorithms in Data Structures and
 
 Sorting algorithms can be divided into internal sorting and external sorting. Internal sorting is the sorting of data records in memory, while external sorting is because the data to be sorted is large and cannot accommodate all sorting records at one time, and external memory needs to be accessed during the sorting process. Common internal sorting algorithms are: **insertion sort, Hill sort, selection sort, bubble sort, merge sort, quick sort, heap sort, radix sort** and so on. Summarize with a picture:
 
-![Top Ten Classic Sorting Algorithms Overview Screenshot](res/sort.png)
+![Top Ten Classic Sorting Algorithms Overview Screenshot](res/read.png.png)
 
 
 **About time complexity**:
